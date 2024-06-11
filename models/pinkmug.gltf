@@ -1,0 +1,124 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.63",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "geometry_0",
+      "rotation": [
+        0.5910668969154358,
+        0.0006161876954138279,
+        -0.7494500875473022,
+        0.29826852679252625
+      ],
+      "scale": [
+        25.462350845336914,
+        25.46234893798828,
+        25.462345123291016
+      ],
+      "translation": [
+        2.6275033950805664,
+        1.0419602394104004,
+        -3.394890308380127
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800782322883606,
+          0.003746459959074855,
+          0.19684168696403503,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "geometry_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2167393,
+      "max": [
+        0.06474452465772629,
+        0.08617766201496124,
+        0.35587286949157715
+      ],
+      "min": [
+        -0.2020835131406784,
+        -0.0887458398938179,
+        0.057755619287490845
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2167393,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5125,
+      "count": 2169669,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 26008716,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 26008716,
+      "byteOffset": 26008716,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8678676,
+      "byteOffset": 52017432,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "pinkmug_data.bin",
+      "byteLength": 60696108
+    }
+  ]
+}
